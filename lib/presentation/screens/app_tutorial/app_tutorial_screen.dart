@@ -120,14 +120,14 @@ class _Slide extends StatelessWidget {
             Image(
               image: AssetImage(imageUrl),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text(
               title,
               style: titleStyle,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Text(
